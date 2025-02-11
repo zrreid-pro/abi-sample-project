@@ -1,0 +1,30 @@
+.hero {
+    background-image: url("src/assets/nugget-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.heroContent {
+    width: fit-content;
+    padding: 5rem;
+    margin: 5% auto;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.heroButton {
+    color: black;
+}
